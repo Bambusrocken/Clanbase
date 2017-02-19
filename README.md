@@ -6,4 +6,4 @@ Learning how to make use of a framework - Codeigniter.
 
 # Latest screenshot
 
-![Alt text](https://i.gyazo.com/902624ba89d0de7ea22e4eea0b82cfee.png "Screenshot")
+![Alt text](\assets\img\screenshot.png?raw=true "Screenshot")
