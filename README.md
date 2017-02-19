@@ -6,4 +6,4 @@ Learning how to make use of a framework - Codeigniter.
 
 # Latest screenshot
 
-![Alt text](\assets\img\screenshot.png?raw=true "Screenshot")
+![Alt text](/assets/img/screenshot.png?raw=true "Screenshot")
