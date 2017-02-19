@@ -10,12 +10,13 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -31,6 +32,8 @@
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Ladders</a></li>
             <li><a href="#">Cups</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Defu.se</a></li>
             <li><a href="#">Support</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -40,6 +43,59 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
+    <header id="header">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-10">
+    				<h1><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Clanbase <small>A remake of the classic league</small></h1>
+    			</div>
+    			<div class="col-md-2">
+    				<div class="dropdown create">
+					  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					    Create content
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					    <li><a href="#">Add page</a></li>
+					    <li><a href="#">Add post</a></li>
+					    <li><a href="#">Add user</a></li>
+					  </ul>
+					</div>
+    			</div>
+    		</div>
+    	</div>
+    </header>
+
+    <section id="breadcrumb">
+    	<div class="container">
+    		<ol class="breadcrumb">
+    			<li class="active">Home</li>
+    		</ol>
+    	</div>
+    </section>
+
+    <section id="main">
+    	<div class="container">
+    		<div class="row">
+	    		<div class="col-md-3">
+	    			<div class="list-group">
+						<a href="#" class="list-group-item active">
+							Navigation
+						</a>
+						<a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+						<a href="#" class="list-group-item">Morbi leo risus</a>
+						<a href="#" class="list-group-item">Porta ac consectetur ac</a>
+						<a href="#" class="list-group-item">Vestibulum at eros</a>
+					</div>
+	    		</div>
+	    		<div class="col-md-9">
+
+	    		</div>
+    		</div>
+    	</div>
+   	</section>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
