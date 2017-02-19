@@ -95,7 +95,7 @@ body {
 .main-color-bg {
 	background-color: #e74c3c !important;
 	border-color: #c0392b !important;
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 /* Header */
@@ -111,6 +111,12 @@ body {
 	padding-top: 20px;
 }
 
+/* Titles */
+
+.title {
+	font-weight: strong;
+}
+
 /* Breadcrumb */
 
 .breadcrumb {
@@ -121,6 +127,53 @@ body {
 .breadcrumb a {
 	color: #333333;
 }
+
+/* Progress Bars - Well */
+
+.well-progress-bars {
+	background-color: #ffffff !important;
+}
+
+/* Featured boxes */
+
+.featured-items {
+	text-align: center !important;
+}
+
+/* Ladder Table */
+
+table {
+	vertical-align: center !important;
+}
+
+th {
+	vertical-align: center !important;
+	text-align: center !important;
+}
+
+.row-offset {
+	background-color: #f5f5f5;
+}
+
+
+/* Font colours */
+
+.font-green {
+	color: #00b16a;
+}
+
+.font-orange {
+	color: #eeb10b;
+}
+
+.font-red {
+	color: #ef4836;
+}
+
+
+
+
+
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
